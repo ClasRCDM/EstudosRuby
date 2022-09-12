@@ -1,4 +1,4 @@
-# Collections e suas manipulações
+# Collections e suas manipulações array
 
 estados = []  # Lista em python
 
