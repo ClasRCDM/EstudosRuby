@@ -1,0 +1,15 @@
+# Exponenciação de números
+
+# Array
+numeros = []
+
+# Pegando números
+3.times do |n|
+    print "Escreva o #{n+1}° número: "
+    numeros.push(gets.chomp.to_i)
+end
+
+puts ''  # Space
+
+# result
+puts numeros.select{|n| print "Exponenciação de #{n} >> #{n**2}", "\n"}
